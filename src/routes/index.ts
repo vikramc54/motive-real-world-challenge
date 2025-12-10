@@ -5,7 +5,7 @@ const router = new AppRouter();
 
 // Default message for base route
 router.get("/", (_req, res) => {
-    res.status(HttpStatusCodes.Success.OK).json({ message: "Welcome to Comics Dash Backend!" });
+    res.status(HttpStatusCodes.Success.OK).json({ message: "Welcome to Motive Backend!" });
 });
 
 export default router;
