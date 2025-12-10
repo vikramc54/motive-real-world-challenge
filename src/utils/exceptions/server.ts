@@ -1,4 +1,4 @@
-import { HttpStatusCodes } from "@/enums/http";
+import { HttpStatusCodes } from "@/utils/enums/http";
 import HttpException from "./HttpException";
 
 class InternalServerErrorException extends HttpException {

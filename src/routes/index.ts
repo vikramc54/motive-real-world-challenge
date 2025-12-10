@@ -1,5 +1,5 @@
 import AppRouter from "./AppRouter";
-import { HttpStatusCodes } from "@/enums/http";
+import { HttpStatusCodes } from "@/utils/enums/http";
 
 const router = new AppRouter();
 

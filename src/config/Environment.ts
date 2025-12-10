@@ -1,4 +1,4 @@
-import AnsiColour from "@/enums/log-colours";
+import AnsiColour from "@/utils/enums/log-colours";
 import Logger from "@/utils/Logger";
 import { configDotenv } from "dotenv";
 import z from "zod";

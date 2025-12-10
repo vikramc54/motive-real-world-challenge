@@ -1,6 +1,6 @@
-import { HttpStatusCodes } from "@/enums/http";
-import AnsiColour from "@/enums/log-colours";
-import HttpException from "@/exceptions/HttpException";
+import { HttpStatusCodes } from "@/utils/enums/http";
+import AnsiColour from "@/utils/enums/log-colours";
+import HttpException from "@/utils/exceptions/HttpException";
 import Logger from "@/utils/Logger";
 import { Request, Response, NextFunction } from "express";
 

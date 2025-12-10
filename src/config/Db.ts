@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import Environment from "./Environment";
 import Logger from "@/utils/Logger";
-import AnsiColour from "@/enums/log-colours";
+import AnsiColour from "@/utils/enums/log-colours";
 
 export default class Db {
     private static _instance: mongoose.Mongoose | null = null;

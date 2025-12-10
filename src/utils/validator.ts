@@ -1,7 +1,7 @@
 import { ZodError, ZodSchema } from "zod";
 import { Request, Response, NextFunction, RequestHandler } from "express";
 import HttpException from "@/utils/exceptions/HttpException";
-import { HttpStatusCodes } from "@/enums/http";
+import { HttpStatusCodes } from "@/utils/enums/http";
 
 type StorageKeys = "originalQuery" | "originalBody" | "originalHeaders" | "originalParams";
 

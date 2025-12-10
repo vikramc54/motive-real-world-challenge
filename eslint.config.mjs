@@ -38,6 +38,14 @@ export default [
         ignores: ["**/node_modules/**", "**/dist/**"],
     },
     {
+        files: ["**/*.test.{js,ts}", "**/*.spec.{js,ts}"],
+        languageOptions: {
+            globals: {
+                ...globals.jest,
+            },
+        },
+    },
+    {
         rules: {
             ...prettierConfig.rules, // Prettier compatibility
         },

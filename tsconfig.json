@@ -13,15 +13,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "typeRoots": [],
     "baseUrl": "./src",
+    "types": ["node", "jest"],
     "paths": {
       "@/config/*": ["config/*"],
       "@/controllers/*": ["controllers/*"],
       "@/db/*": ["db/*"],
-      "@/enums/*": ["utils/enums/*"],
-      "@/exceptions/*": ["utils/exceptions/*"],
       "@/middleware/*": ["middleware/*"],
+      "@/models/*": ["models/*"],
       "@/routes/*": ["routes/*"],
       "@/schemas/*": ["schemas/*"],
       "@/types/*": ["types/*"],
@@ -35,7 +34,7 @@
   ],
   "include": [
     "src/**/*.ts",
-    "tests/**/*.spec.ts"
+    "src/tests/**/*.ts"
   ],
   "files": [
     "src/index.ts"
